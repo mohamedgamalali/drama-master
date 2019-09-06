@@ -1,0 +1,281 @@
+a{
+    color: white;
+}
+
+hr{
+    border-top: 1px solid #ededed;
+}
+
+.ad1{
+    background-color: #303030;
+    height: 120px;
+    /*width: 40%;*/
+    position: relative;
+    margin: 30px 0 40px 0px;
+    left: 360px; 
+    padding-top: 40px;
+    color: white;
+}
+
+.ad2-3-4{
+    padding: 25px 0px;
+    color: #111111;
+    text-align: center;
+}
+
+.ad2{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 0px 20px;
+    
+}
+.ad3{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 0px 20px;
+
+}
+
+.ad4{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 0px 200px;
+}
+
+.ad5{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    margin-bottom: 40px;
+}
+
+.carousel-caption { 
+    top: 60% !important;
+    font-size: 40px;
+    }
+
+.carousel-caption a{ 
+    color: white;
+}
+
+.carousel-caption a:hover{ 
+    text-decoration: none;
+}
+
+.carousel-item:hover{
+    transform: scale(1.1);
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+.content{
+    background-color: #111111;
+    width: 90%;
+    position: relative;
+    left: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: fit-content;    
+}
+
+.discuss hr{
+    border-top: 1px solid #ededed;
+    width: 10%;
+    opacity: 0.5;
+}
+
+body {
+    background-color: #E9E8ED;
+    text-align: center;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+
+.dropdown-menu{
+      font-family: "Montserrat";
+  }
+
+
+.form-control{
+    background: #303030;
+    position: relative;
+    right: 100px;
+    border-radius: 5%;
+    border-color: #111111
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ubuntu";
+  }
+
+.cards{
+    height: fit-content;
+    background-color: #303030;    
+    margin: 30px 10px 25px 0px;
+    padding: 20px;
+    text-align: left;
+    width: 65%;
+    color: white;
+    position: absolute;
+}
+
+.cards h4{
+    color: white;
+}
+
+.cards h6{
+    color: #12e6c8;
+    
+}
+
+.cards p{
+    color: white;
+    
+}
+
+.cards ul{
+    list-style: none;
+    margin-top: 30px;
+    position: relative;
+    right: 40px;
+}
+
+.cards ul li {
+    display: inline-block;
+    max-width: 200px;
+    padding: 0 10px;
+    color: white;
+}
+
+.cards  a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #303030;
+    height: 200px;
+    color: white;
+    /*padding-top: 50px;*/
+}
+
+.lang{
+    margin-right: 50px;     
+}
+
+.navbar {
+    padding: 0 0 0.5rem;
+  }
+  
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 0px 0px 50px;
+  }
+  
+.nav-item{
+    padding : 10px 9px 0px 12px; 
+  }
+
+.nav-link{
+    color: #12e6c8 !important;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.nav-link:hover{
+    background-color: #1d547a;
+}
+
+.navbar ul {
+    margin-left: 100px;  
+  }
+
+#lastpost{
+    max-height: 200px;
+}
+  
+#poster:hover{
+    transform: scale(1.1);
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+  }
+  
+ .social-icon{
+     padding-right: 10px;  
+ }
+
+  .footer ul{
+    list-style: none;
+     position: relative;
+    
+}
+
+.footer ul li {
+    display: inline-block;
+    max-width: 200px;
+    margin-top: 30px;
+    padding: 0 40px;
+    color: white;
+}
+
+.box{
+    height: fit-content;
+    width: 34%;
+    background-color: #303030;  
+    position: relative;
+    left: 780px;  
+    /*top: 25px;*/
+    text-align: left;
+    margin-top: 130px;
+    
+}
+
+.box h4{
+    color: #12e6c8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box h5{
+    color: #12e6c8;
+}
+
+.box-disc{
+   position: relative;
+   left: 25px;
+   line-height: 5px;
+   color: white;
+}
+
+.box-img{
+    position: relative;
+    bottom: 15px;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.list hr{
+    width: 60px;
+    margin-top: 40px;
+}
+.last{
+    margin-bottom: 50px;
+}

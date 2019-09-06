@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/articles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</head>
+
+<body>
+    <!------------------------Navbar---------------------------->
+
+        <div class="container-fluid">
+            <!--Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="/">
+            <div class="logo-image">
+                  <img src="../imgs/logo.jpg" class="img-fluid" width="">
+            </div>
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+          aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+          <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">الرئيسية
+                        </a>
+                        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333" style="text-align: center;">
+                          <a class="dropdown-item" href="../routes/Articles.html">اخبار</a>
+                          <a class="dropdown-item" href="#">مقالات</a>
+                          <a class="dropdown-item" href="#">مجتمع</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">اكتشف
+                            </a>
+                            <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                  aria-haspopup="true" aria-expanded="false">اشخاص
+                                </a>
+                                <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">مجتمع
+              </a>
+              <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0 ml-auto">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+
+              </form>
+
+          <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user fa-2x"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                aria-labelledby="navbarDropdownMenuLink-333">
+                <a class="dropdown-item" href="/signin">log in</a>
+                <a class="dropdown-item" href="/signup">sign up</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/.Navbar -->
+            <!------------------------Content----------------------------------->
+            <div class="container">
+
+
+            <div class="ad1 col-lg-5 col-xs-12 col-centered">
+                <h1>Put Your Ad Here</h1>
+            </div>
+
+                <!-------------------------Side------------------------>
+                <div class="side">
+                    <div class="ad-2-3-4">
+                        <div class="ad5 rounded">
+                            <h3>Ads Space</h3>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="filter">
+                    <h1>تصفية</h1>
+                    <hr>
+                    <ul class="nav nav-tabs nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item ">
+                            <a class="nav-link text-light" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                role="tab" aria-controls="pills-home" aria-selected="true">مقالات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" id="pills-profile-tab" data-toggle="pill"
+                                href="#pills-profile" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">اشخاص</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" id="pills-contact-tab" data-toggle="pill"
+                                href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">النوع</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-2 pl-1" id="pills-tabContent">
+                        <div class="tab-pane fade text-light" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <!-- Accordion card -->
+
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="heading11">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                                    href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                    <h5 class="mb-0 text-light">
+                                        الفئة <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <form class="" action="/filter/articles" method="post">
+
+                              <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
+                              data-parent="#accordionEx1">
+                              <div class="card-body">
+                                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                                  <input type="checkbox" class="custom-control-input" id="defaultInline59" name="category" value="news">
+                                  <label class="custom-control-label" for="defaultInline59">اخبار</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                                  <input type="checkbox" class="custom-control-input" id="defaultInline60" name="category" value="reviews">
+                                  <label class="custom-control-label" for="defaultInline60">مراجعات</label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Accordion card -->
+                            <!-- Accordion card -->
+
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="heading12">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                              href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                              <h5 class="mb-0 text-light">
+                                الترتيب حسب <i class="fas fa-angle-down rotate-icon"></i>
+                              </h5>
+                            </a>
+                          </div>
+
+                          <!-- Card body -->
+                          <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12"
+                          data-parent="#accordionEx1">
+                          <div class="card-body">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" class="custom-control-input" id="defaultGroupExample9"
+                              name="groupOfDefaultRadios3" value="likes">
+                              <label class="custom-control-label" for="defaultGroupExample9">الشهرة</label>
+                            </div>
+
+                            <!-- Group of default radios - option 3 -->
+                            <div class="custom-control custom-radio">
+                              <input type="radio" class="custom-control-input" id="defaultGroupExample9"
+                              name="groupOfDefaultRadios3">
+                              <label class="custom-control-label" for="defaultGroupExample9" name="sort" value="date">حديث</label>
+                            </div>
+
+
+                          </div>
+                        </div>
+
+                        <div class="buttons">
+                          <hr>
+                          <button type="button" class="btn btn-danger btn-rounded btn-lg">Reset</button>
+                          <button type="submit" class="btn btn-primary btn-rounded btn-lg">Submit</button>
+                        </div>
+
+                      </div>
+                    </form>
+
+                    <form class="" action="/filter/people" method="post">
+
+                      <div class="tab-pane fade text-light" id="pills-profile" role="tabpanel"
+                      aria-labelledby="pills-profile-tab">
+                      <div class="accordion md-accordion" id="accordionEx1" role="tablist"
+                      aria-multiselectable="true">
+
+                      <!-- Accordion card -->
+
+
+                      <!-- Card header -->
+                      <div class="card-header" role="tab" id="heading8">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                        href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                        <h5 class="mb-0 text-light">
+                          الجنسية <i class="fas fa-angle-down rotate-icon"></i>
+                        </h5>
+                      </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8"
+                    data-parent="#accordionEx1">
+                    <div class="card-body">
+                      <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="defaultInline52" name="country" value="couria">
+                        <label class="custom-control-label" for="defaultInline52">كوري</label>
+                      </div>
+                      <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="defaultInline53" name="country" value="Japanese">
+                        <label class="custom-control-label" for="defaultInline53">ياباني</label>
+                      </div>
+                      <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="defaultInline54" name="country" value="china">
+                        <label class="custom-control-label" for="defaultInline54">
+                          صيني</label>
+                        </div>
+                        <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                          <input type="checkbox" class="custom-control-input" id="defaultInline55" name="country" value="taywan">
+                          <label class="custom-control-label" for="defaultInline55">تايوان</label>
+                        </div>
+                        <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                          <input type="checkbox" class="custom-control-input" id="defaultInline56" name="country" value="hongKong">
+                          <label class="custom-control-label" for="defaultInline56">هونغ
+                            كونغ</label>
+                          </div>
+                          <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="defaultInline57" name="country" value="tiland">
+                            <label class="custom-control-label" for="defaultInline57">تيلاند</label>
+                          </div>
+                          <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="defaultInline58" name="country" value="phlipin">
+                            <label class="custom-control-label" for="defaultInline58">فلبين</label>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <!-- Accordion card -->
+
+
+                      <!-- Card header -->
+                      <div class="card-header" role="tab" id="heading9">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                        href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                        <h5 class="mb-0 text-light">
+                          النوع <i class="fas fa-angle-down rotate-icon"></i>
+                        </h5>
+                      </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9"
+                    data-parent="#accordionEx1">
+                    <div class="card-body">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="defaultGroupExample4"
+                        name="groupOfDefaultRadios2" name="sex" value="male">
+                        <label class="custom-control-label" for="defaultGroupExample4">ذكر</label>
+                      </div>
+
+                      <!-- Group of default radios - option 2 -->
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="defaultGroupExample5"
+                        name="groupOfDefaultRadios2" name="sex" value="fmale">
+                        <label class="custom-control-label" for="defaultGroupExample5">انثي</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Accordion card -->
+
+
+                  <!-- Card header -->
+                  <div class="card-header" role="tab" id="heading10">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                    href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                    <h5 class="mb-0 text-light">
+                      الترتيب حسب <i class="fas fa-angle-down rotate-icon"></i>
+                    </h5>
+                  </a>
+                </div>
+
+                <!-- Card body -->
+                <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10"
+                data-parent="#accordionEx1">
+                <div class="card-body">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample6"
+                    name="groupOfDefaultRadios3"name="sort" value="name">
+                    <label class="custom-control-label"
+                    for="defaultGroupExample6">الأبجدية</label>
+                  </div>
+
+                  <!-- Group of default radios - option 2 -->
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample7"
+                    name="groupOfDefaultRadios3" name="sort" value="followers">
+                    <label class="custom-control-label"
+                    for="defaultGroupExample7">الشهرة</label>
+                  </div>
+
+                  <!-- Group of default radios - option 3 -->
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample8"
+                    name="groupOfDefaultRadios3" name="sort" value="date">
+                    <label class="custom-control-label" for="defaultGroupExample8">حديث</label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="buttons">
+              <hr>
+              <button type="button" class="btn btn-danger btn-rounded btn-lg">Reset</button>
+              <button type="submit" class="btn btn-primary btn-rounded btn-lg">Submit</button>
+            </div>
+          </div>
+        </form>
+                  <form class="" action="/filter/item" method="post">
+                    <div class="tab-pane fade show active text-light" id="pills-contact" role="tabpanel"
+                    aria-labelledby="pills-contact-tab">
+                    <!------------------------------------------------------------------------------------->
+                    <!--Accordion wrapper-->
+                    <div class="accordion md-accordion" id="accordionEx1" role="tablist"
+                    aria-multiselectable="true">
+
+                    <!-- Accordion card -->
+
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo1">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                      href="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+                      <h5 class="mb-0 text-light">
+                        النوع <i class="fas fa-angle-down rotate-icon"></i>
+                      </h5>
+                    </a>
+                  </div>
+
+                  <!-- Card body -->
+                  <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
+                  data-parent="#accordionEx1">
+                  <div class="card-body">
+                    <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                      <input type="checkbox" class="custom-control-input" id="defaultInline1" name="genres" value="drama">
+                      <label class="custom-control-label" for="defaultInline1">دراما</label>
+                    </div>
+
+                    <!-- Default inline 2-->
+                    <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                      <input type="checkbox" class="custom-control-input" id="defaultInline2" name="genres" value="movies">
+                      <label class="custom-control-label" for="defaultInline2">افلام</label>
+                    </div>
+
+                    <!-- Default inline 3-->
+
+                    <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                      <input type="checkbox" class="custom-control-input" id="defaultInline4" name="genres" value="tvShows">
+                      <label class="custom-control-label" for="defaultInline4">برامج ترفيه</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+
+
+                <!-- Card header -->
+                <div class="card-header" role="tab" id="headingTwo2">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                  href="#collapseTwo21" aria-expanded="false" aria-controls="collapseTwo21">
+                  <h5 class="mb-0 text-light">
+                    الدولة <i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+
+              <!-- Card body -->
+              <div id="collapseTwo21" class="collapse" role="tabpanel" aria-labelledby="headingTwo21"
+              data-parent="#accordionEx1">
+              <div class="card-body">
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline5" name="country" value="hongcong">
+                  <label class="custom-control-label" for="defaultInline5">هونغ كونغ</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline6" name="country" value="tailand">
+                  <label class="custom-control-label" for="defaultInline6">تايلاند</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline7" name="country" value="phlipin">
+                  <label class="custom-control-label" for="defaultInline7">الفلبين</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline8" name="country" value="coria">
+                  <label class="custom-control-label" for="defaultInline8">كوريا
+                    الجنوبية</label>
+                  </div>
+
+
+                  <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline9" name="country" value="yaban">
+                    <label class="custom-control-label" for="defaultInline9">اليابان</label>
+                  </div>
+
+                  <!-- Default inline 3-->
+                  <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline10" name="country" value="china">
+                    <label class="custom-control-label" for="defaultInline10">الصين</label>
+                  </div>
+
+
+                  <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline11" name="country" value="taywan">
+                    <label class="custom-control-label" for="defaultInline11">تايوان</label>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Accordion card -->
+
+              <!-- Accordion card -->
+
+
+              <!-- Card header -->
+              <div class="card-header" role="tab" id="headingThree31">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                href="#collapseThree31" aria-expanded="false" aria-controls="collapseThree31">
+                <h5 class="mb-0 text-light">
+                  الفئة <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseThree31" class="collapse" role="tabpanel"
+            aria-labelledby="headingThree31" data-parent="#accordionEx1">
+            <div class="card-body">
+              <%for(var i=0;i<tag.length;i++){%>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline<%=i+12%>" name="tag" value="<%=tag[i].name%>">
+                  <label class="custom-control-label" for="defaultInline<%=i+12%>"><%=tag[i].name%></label>
+                </div>
+              <%}%>
+              <!-- <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline13">
+                <label class="custom-control-label" for="defaultInline13">مغامرة</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline14">
+                <label class="custom-control-label" for="defaultInline14">حيوانات</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline15">
+                <label class="custom-control-label" for="defaultInline15">اعمال</label>
+              </div>
+
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline16">
+                <label class="custom-control-label" for="defaultInline16">كوميدي</label>
+              </div>
+
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline17">
+                <label class="custom-control-label" for="defaultInline17">جريمة</label>
+              </div>
+
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline18">
+                <label class="custom-control-label" for="defaultInline18">تحقيق</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline19">
+                <label class="custom-control-label" for="defaultInline19">وثائقي</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline20">
+                <label class="custom-control-label" for="defaultInline20">دراما</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline21">
+                <label class="custom-control-label" for="defaultInline21">عائلي</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline22">
+                <label class="custom-control-label" for="defaultInline22">خيال</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline23">
+                <label class="custom-control-label" for="defaultInline23">طعام</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline24">
+                <label class="custom-control-label" for="defaultInline24">صداقة</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline25">
+                <label class="custom-control-label" for="defaultInline25">تاريخ</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline26">
+                <label class="custom-control-label" for="defaultInline26">رعب</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline27">
+                <label class="custom-control-label" for="defaultInline27">حقوق</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline28">
+                <label class="custom-control-label" for="defaultInline28">حياة</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline29">
+                <label class="custom-control-label" for="defaultInline29">مانغا</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline30">
+                <label class="custom-control-label" for="defaultInline30">فنون
+                  قتالية</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline31">
+                  <label class="custom-control-label" for="defaultInline31">طب</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline32">
+                  <label class="custom-control-label" for="defaultInline32">دراما</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline33">
+                  <label class="custom-control-label" for="defaultInline33">عسكرية</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline34">
+                  <label class="custom-control-label" for="defaultInline34">موسيقي</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline35">
+                  <label class="custom-control-label" for="defaultInline35">غموض</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline36">
+                  <label class="custom-control-label" for="defaultInline36">سياسي</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline37">
+                  <label class="custom-control-label" for="defaultInline37">سايكولوجي</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline38">
+                  <label class="custom-control-label" for="defaultInline38">رومانسي</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline39">
+                  <label class="custom-control-label" for="defaultInline39">مدرسة</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline40">
+                  <label class="custom-control-label" for="defaultInline40">خيال علمي</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline41">
+                  <label class="custom-control-label" for="defaultInline41">قصير</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline42">
+                  <label class="custom-control-label" for="defaultInline42">رياضه</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline43">
+                  <label class="custom-control-label" for="defaultInline43">طبيعة</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline44">
+                  <label class="custom-control-label" for="defaultInline44">تشويق</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline45">
+                  <label class="custom-control-label" for="defaultInline45">توكوساتو</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline46">
+                  <label class="custom-control-label" for="defaultInline46">تراجيدي</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="defaultInline47">
+                  <label class="custom-control-label" for="defaultInline47">مصاصين
+                    دماء</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline48">
+                    <label class="custom-control-label" for="defaultInline48">حروب</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline49">
+                    <label class="custom-control-label" for="defaultInline49">غرب</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline50">
+                    <label class="custom-control-label" for="defaultInline50">صغار</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3 custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline51">
+                    <label class="custom-control-label" for="defaultInline51">زومبي</label>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Accordion card -->
+              <!-- Accordion card -->
+
+
+              <!-- Card header -->
+              <!-- <div class="card-header" role="tab" id="headingfour">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                <h5 class="mb-0 text-light">
+                  الشبكات <i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+
+            <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour"
+            data-parent="#accordionEx1">
+            <div class="card-body">
+              <div class="active-cyan-3 active-cyan-4 mb-4">
+                <input class="form-control" type="text" placeholder="Search"
+                aria-label="Search">
+              </div>
+            </div>
+          </div> -->
+
+
+
+          <!-- Accordion card -->
+          <!-- Accordion card -->
+
+
+          <!-- Card header -->
+          <div class="card-header" role="tab" id="heading5">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+            href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            <h5 class="mb-0 text-light">
+              التقييم<i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5"
+        data-parent="#accordionEx1">
+        <div class="card-body">
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="ممتاز">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="جيد جدا">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="جيد">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="مقبول">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="سئ">1 star</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion card -->
+      <!-- Accordion card -->
+
+
+      <!-- Card header -->
+      <div class="card-header" role="tab" id="heading6">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+        href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+        <h5 class="mb-0 text-light">
+          الحلقات <i class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6"
+    data-parent="#accordionEx1">
+    <div class="card-body">
+        من
+        <input type="number" name="quantity" min="1" max="200">
+        الي
+        <input type="number" name="quantity" min="1" max="200">
+    </div>
+  </div>
+
+
+
+</div>
+<div class="buttons">
+  <hr>
+  <button type="button" class="btn btn-danger btn-rounded btn-lg">Reset</button>
+  <button type="submit" class="btn btn-primary btn-rounded btn-lg">Submit</button>
+</div>
+</div>
+</div>
+
+</form>
+
+                        <div class="card">
+                                <div class="card-header">
+                                    <h3 style="color: white">احدث الاعلانات</h3>
+                                </div>
+                                <div class="card-body">
+                                    <%for(var i=0;i<newTreller.length;i++){%>
+
+                                      <div class="box">
+                                        <a href="#"><img src="<%=newTreller[i].img%>" alt="Flying Kites" width="130px;"></a>
+                                        <div class="text">
+                                          <p> <%=newTreller[i].name%> <i class="far fa-play-circle"></i></p>
+                                        </div>
+                                      </div>
+                                      <% if(i == 3) {%>
+                                        <% break %>
+                                      <% } %>
+                                    <%}%>
+                                                <!-- <div class="box">
+                                                        <a href="#"><img src="../imgs/img3.jpg" alt="Flying Kites" width="130px;"></a>
+                                                        <div class="text">
+                                                            <p> التريلر الرابع <i class="far fa-play-circle"></i></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box">
+                                                            <a href="#"><img src="../imgs/img1.jpg" alt="Flying Kites" width="130px;"></a>
+                                                            <div class="text">
+                                                                <p> التريلر الثالث <i class="far fa-play-circle"></i></p>
+                                                            </div>
+                                                        </div> -->
+
+
+                                </div>
+
+
+                    </div>
+                </div>
+                <div class="articles">
+                <%art.forEach((item)=>{%>
+
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                      <a href="#"><img src="<%=item.img%>" alt="" width="150" style="float: right;"></a>
+                      <div class="article-words">
+                        <a href="#">
+                          <h5><%=item.title%></h5>
+                        </a>
+                        <p><%=item.date%></p>
+                        <p><%=item.content%></p>
+                      </div>
+                    </div>
+
+                  <%});%>
+                    <!-- <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide2.jpg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>تجربة كتابة بالخط العربي</h5>
+                            </a>
+                            <p>-Aug 30 2019</p>
+                            <p>تجربة للخط العربي</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide4.jpeg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>Wotakoi: Love is Hard for Otaku (Live Action in Kdrama?)</h5>
+                            </a>
+                            <p>- Sep 01 2019</p>
+                            <p>A theoretical K-drama adaptation of Wotakoi: Love is Hard for Otaku</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide3.jpeg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>Will You Ring My 'Love Alarm'?</h5>
+                            </a>
+                            <p>- Sep 01 2019</p>
+                            <p>Review of the recent Netflix KDrama Series 'Love Alarm'..</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide1.jpg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>Talents Under Huanyu Film</h5>
+                            </a>
+                            <p>- Sep 01 2019</p>
+                            <p>Everything you need to know about Huanyu Film.</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide2.jpg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>3 Reasons Why Kakegurui is a MUST Watch!</h5>
+                            </a>
+                            <p>-Aug 30 2019</p>
+                            <p>I recently saw the Kakegurui movie on</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide4.jpeg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>Wotakoi: Love is Hard for Otaku (Live Action in Kdrama?)</h5>
+                            </a>
+                            <p>- Sep 01 2019</p>
+                            <p>A theoretical K-drama adaptation of Wotakoi: Love is Hard for Otaku</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide3.jpeg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>Will You Ring My 'Love Alarm'?</h5>
+                            </a>
+                            <p>- Sep 01 2019</p>
+                            <p>Review of the recent Netflix KDrama Series 'Love Alarm'..</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide1.jpg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>Talents Under Huanyu Film</h5>
+                            </a>
+                            <p>- Sep 01 2019</p>
+                            <p>Everything you need to know about Huanyu Film.</p>
+                        </div>
+                    </div>
+                    <div class="article shadow p-3 mb-5 bg-white rounded">
+                        <a href="#"><img src="../imgs/wide2.jpg" alt="" width="150" style="float: right;"></a>
+                        <div class="article-words">
+                            <a href="#">
+                                <h5>3 Reasons Why Kakegurui is a MUST Watch!</h5>
+                            </a>
+                            <p>-Aug 30 2019</p>
+                            <p>I recently saw the Kakegurui movie on</p>
+                        </div>
+                    </div> -->
+
+
+                </div>
+
+
+
+
+        </div>
+    <!------------------------ Footer --------------------->
+
+    <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+          <!-- Grid row-->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+              <div class="mb-5 flex-center">
+
+                <!-- Facebook -->
+                <a class="fb-ic">
+                  <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!-- Twitter -->
+                <a class="tw-ic">
+                  <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!-- Google +-->
+                <a class="gplus-ic">
+                  <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic">
+                  <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic">
+                  <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Pinterest-->
+                <a class="pin-ic">
+                  <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                </a>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="#">Emra programming</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+    <!-- JQuery -->
+
+    <script src="/script/articles.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/script/jquery-3.4.1.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drama</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+
+    <section class="colored-section" id="title">
+        <div class="container-fluid">
+
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Drama</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#">
+                                Home
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Feeds</a>
+                                <a class="dropdown-item" href="/articles">Articles</a>
+                                <a class="dropdown-item" href="#">Trailers</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Watch online</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Explore
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                People
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Community
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/signin">log in</a>
+                                <a class="dropdown-item" href="/signup">sign up</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control  input-sm" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <div class="lang">
+                        <button type="button" class="btn btn-outline-light btn-xs">
+                            Ar
+                        </button>
+                        <button type="button" class="btn btn-outline-light btn-xs">
+                            En
+                        </button>
+                    </div>
+
+                </div>
+            </nav>
+
+
+
+            <div class="row">
+                <div class="ad1 col-lg-5 col-xs-12 col-centered bg-dark">
+                    <h1>Put Your Ad Here</h1>
+                </div>
+                <div class="content shadow p-3 mb-5">
+                    <div class="bd-example col-lg-12 col-sm-12">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="#"><img src="imgs/img1.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p>Nulla vitae elit libero, a pharetra augue.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#"><img src="imgs/img2.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="imgs/img3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!----------------Imgs---------------->
+            <div class="cards shadow-sm p-3 mb-5 bg-dark rounded">
+                <div class="lepisode">
+                    <a href="#">
+                        <h4>Watch Latest Episodes</h4>
+                    </a>
+                    <ul>
+                        <li id="poster"><a href="#">
+                          <%for(var i=0;i<last.length;i++){%>
+                            <li id="poster"><a href="#">
+                                    <img id="lastpost" src="<%=last[i].img%>" alt="">
+                                    <p>Episode <%=last[i].episods[l[i]].num%></p>
+                                    <h6><%=last[i].name%></h6>
+                                </a>
+                            </li>
+                          <%}%>
+                                <!-- <img id="lastpost" src="imgs/poster1.jpeg" alt="">
+                                <p>Episode 12</p>
+                                <h6>American Horror Story</h6>
+                            </a>
+                        </li>
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster2.jpeg" alt="">
+                                <p>Episode 23</p>
+                                <h6>Narcos</h6>
+                            </a>
+                        </li>
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster3.jpeg" alt="">
+                                <p>Episode 7</p>
+                                <h6>Stranger Things</h6>
+                            </a>
+                        </li>
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster4.jpeg" alt="">
+                                <p>Episode 8</p>
+                                <h6>Arrow</h6>
+                            </a>
+
+                        </li> -->
+                    </ul>
+                    <hr>
+                </div>
+
+                <div class="reviews">
+                    <a href="#"><span style="color: #12e6c8;">
+                            <h4>Latest reviews</h4>
+                        </span></a>
+                    <ul>
+
+                      <%reviews.forEach((R)=>{%>
+                        <li id="poster"><a href="#">
+                          <img id="lastpost" src="<%=R.img%>" alt="">
+                          <h6><%=R.item.name%></h6>
+                        </a>
+                        <br>
+                        <p>by<a href="#"><span style="color: #12e6c8">Author</span></a></p>
+                      </li>
+                      <%});%>
+                        <!-- <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster6.jpeg" alt="">
+                                <h6>Super girl</h6>
+                            </a>
+                            <br>
+                            <p>by<a href="#"><span style="color: #12e6c8">Author</span></a></p>
+                        </li>
+
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster7.jpeg" alt="">
+                                <h6>Flash</h6>
+                            </a>
+                            <br>
+                            <p>by<a href="#"><span style="color: #12e6c8">Author</span></a></p>
+                        </li>
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster8.jpeg" alt="">
+                                <h6>Daredevil</h6>
+                            </a>
+                            <br>
+                            <p>by<a href="#"><span style="color: #12e6c8">Author</span></a></p>
+                        </li> -->
+                    </ul>
+                    <hr>
+                </div>
+                <div class="ntrailers">
+                    <a href="#">
+                        <h4>Newest Trailers</h4>
+                    </a>
+                    <ul>
+                      <%for(var i=0;i<lastTr.length;i++){%>
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="<%=lastTr[i].img%>" alt="">
+                                <h6><%=lastTr[i].name%></h6>
+                            </a>
+                        </li>
+                      <%}%>
+                    </ul>
+                    <hr>
+                </div>
+
+                <div class="ad2-3-4 row">
+                    <div class="ad2 col">
+                        <h1>Ads Space</h1>
+                    </div>
+                    <div class="ad3 col">
+                        <h1>Ads Space</h1>
+                    </div>
+                </div>
+                <hr>
+                <div class="trending">
+                    <a href="#">
+                        <h4>Trending this week</h4>
+                        <p>Drama Type</p>
+                    </a>
+                    <ul>
+                      <%trinding.forEach((item)=>{%>
+                        <li id="poster"><a href="#">
+                          <img id="lastpost" src="<%=item.img%>" alt="">
+                          <h6><%=item.name%></h6>
+                        </a>
+                        <p>Drama Type</p>
+                      </li>
+                      <%})%>
+                        <!-- <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster6.jpeg" alt="">
+                                <h6>Series</h6>
+                            </a>
+                            <p>Drama Type</p>
+                        </li>
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster7.jpeg" alt="">
+                                <h6>Series</h6>
+                            </a>
+                            <p>Drama Type</p>
+                        </li>
+                        <li id="poster"><a href="#">
+                                <img id="lastpost" src="imgs/poster8.jpeg" alt="">
+                                <h6>Series</h6>
+                            </a>
+                            <p>Drama Type</p>
+                        </li> -->
+                    </ul>
+                    <hr>
+                </div>
+                <div class="starting">
+                    <a href="#">
+                        <h4>Trending this week</h4>
+                        <p>Drama Type</p>
+                    </a>
+                    <ul>
+                      <%trinding.forEach((item)=>{%>
+                        <li id="poster"><a href="#">
+                          <img id="lastpost" src="<%=item.img%>" alt="">
+                          <h6><%=item.name%></h6>
+                        </a>
+                        <p>Drama Type</p>
+                      </li>
+                      <%})%>
+                    </ul>
+                    <hr>
+                </div>
+                <div class="ending">
+                    <a href="#">
+                        <h4>Trending this week</h4>
+                    </a>
+                    <ul>
+                      <%trinding.forEach((item)=>{%>
+                        <li id="poster"><a href="#">
+                          <img id="lastpost" src="<%=item.img%>" alt="">
+                          <h6><%=item.name%></h6>
+                        </a>
+                        <p>Drama Type</p>
+                      </li>
+                      <%})%>
+                    </ul>
+                    <hr>
+                </div>
+                <div class="discuss">
+                    <a href="#">
+                        <h4>Recent Discussions</h4>
+                    </a>
+                    <br><br>
+                    <div class="ques">
+                        <a href="#">
+                            <h6>Last Japanese song you listened to?</h6>
+                        </a>
+                        <p>by<a href="#"><span style="color: white">UserName</span></a></p>
+                        <hr>
+                    </div>
+                    <div class="ques">
+                        <a href="#">
+                            <h6>Last Drama You Completed?</h6>
+                        </a>
+                        <p>by<a href="#"><span style="color: white">UserName</span></a></p>
+                        <hr>
+                    </div>
+                    <div class="ques">
+                        <a href="#">
+                            <h6>10 dramas/movies with ____?</h6>
+                        </a>
+                        <p>by<a href="#"><span style="color: white">UserName</span></a></p>
+                        <hr>
+                    </div>
+                    <div class="ques">
+                        <a href="#">
+                            <h6>Would you rather?</h6>
+                        </a>
+                        <p>by<a href="#"><span style="color: white">UserName</span></a></p>
+                        <hr>
+                    </div>
+                    <div class="ques">
+                        <h6>True Or False #2</h6>
+                        <p>by<a href="#"><span style="color: white">UserName</span></a></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="birthday">
+                    <a href="#">
+                        <h4>Today's Birthday (<%=today%>)</h4>
+                    </a>
+                    <ul>
+
+                      <%actorBirthday.forEach((val)=>{%>
+
+                        <li id="poster"><a href="#">
+                          <img id="lastpost" src="<%=val.img%>" alt="">
+                          <h6><%=val.name%></h6>
+                        </a>
+                        <p><%=today%></p>
+                      </li>
+
+                      <%});%>
+                    </ul>
+                    <hr>
+
+
+                </div>
+            </div>
+            <div class="box shadow-sm p-3 mb-5 bg-dark rounded">
+                <div class="ad-2-3-4">
+                    <div class="ad5">
+                        <h3>Ads Space</h3>
+                    </div>
+                    <hr>
+                </div>
+                    <div class="box-header">
+                        <a href="#"><h4>Top Airing Shows</h4></a>
+                    </div>
+                    <ul class="list top-list">
+                      <%mostWatch.forEach((item)=>{%>
+                        <li class="list-item">
+                          <div class="box-img">
+                            <img src="<%=item.img%>" alt="" width="70" style="float: left;">
+                          </div>
+                          <div class="box-disc">
+                            <a href="#"><h5><%=item.name%></h5></a>
+                            <p><%=item.rate%></p>
+                            <p><%=item.genres%></p>
+                            <p>40 episods <%=item.episods.length%></p>
+                          </div>
+                        </li>
+                        <hr>
+                      <%});%>
+                        <!-- <li class="list-item">
+                            <div class="box-img">
+                                <img src="imgs/poster2.jpeg" alt="" width="70" style="float: left;">
+                            </div>
+                            <div class="box-disc">
+                                <a href="#"><h5>2.Narcos</h5></a>
+                                <p>8.8</p>
+                                <p>series discrption</p>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="list-item">
+                            <div class="box-img">
+                                <img src="imgs/poster3.jpeg" alt="" width="70" style="float: left;">
+                            </div>
+                            <div class="box-disc">
+                                <a href="#"><h5>3.Stranger Things</h5></a>
+                                <p>8.8</p>
+                                <p>series discrption</p>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="list-item">
+                            <div class="box-img">
+                                <img src="imgs/poster4.jpeg" alt="" width="70" style="float: left;">
+                            </div>
+                            <div class="box-disc">
+                                <a href="#"><h5>4.Arrow</h5></a>
+                                <p>8.8</p>
+                                <p>series discrption</p>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="list-item">
+                            <div class="box-img">
+                                <img src="imgs/poster5.jpeg" alt="" width="70" style="float: left;">
+                            </div>
+                            <div class="box-disc last">
+                                <a href="#"><h5>5.Prison Break</h5></a>
+                                <p>8.8</p>
+                                <p>series discrption</p>
+                            </div>
+                        </li> -->
+
+                    </ul>
+                    <hr>
+
+                    <div class="box-header">
+                            <a href="#"><h4>Top Upcoming Shows</h4></a>
+                        </div>
+                        <ul class="list top-list">
+                            <li class="list-item">
+                                <div class="box-img">
+                                    <img src="imgs/poster1.jpeg" alt="" width="70" style="float: left;">
+                                </div>
+                                <div class="box-disc">
+                                    <a href="#"><h5>1.American Horror Story</h5></a>
+                                    <p>8.8</p>
+                                    <p>series discrption</p>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="list-item">
+                                <div class="box-img">
+                                    <img src="imgs/poster2.jpeg" alt="" width="70" style="float: left;">
+                                </div>
+                                <div class="box-disc">
+                                <a href="#"><h5>2.Narcos</h5></a>
+                                    <p>8.8</p>
+                                    <p>series discrption</p>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="list-item">
+                                <div class="box-img">
+                                    <img src="imgs/poster3.jpeg" alt="" width="70" style="float: left;">
+                                </div>
+                                <div class="box-disc">
+                                    <a href="#"><h5>3.Stranger Things</h5></a>
+                                    <p>8.8</p>
+                                    <p>series discrption</p>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="list-item">
+                                <div class="box-img">
+                                    <img src="imgs/poster4.jpeg" alt="" width="70" style="float: left;">
+                                </div>
+                                <div class="box-disc">
+                                    <a href="#"><h5>4.Arrow</h5></a>
+                                    <p>8.8</p>
+                                    <p>series discrption</p>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="list-item">
+                                <div class="box-img">
+                                    <img src="imgs/poster5.jpeg" alt="" width="70" style="float: left;">
+                                </div>
+                                <div class="box-disc last">
+                                    <a href="#"><h5>5.Prison Break</h5></a>
+                                    <p>8.8</p>
+                                    <p>series discrption</p>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <hr>
+                        <div class="ad-2-3-4">
+                                <div class="ad5">
+                                    <h3>Ads Space</h3>
+                                </div>
+                                <hr>
+                            </div>
+                        <div class="box-header">
+                                <a href="#"><h4>Most Popular Shows</h4></a>
+                            </div>
+                            <ul class="list top-list">
+                              <%topShow.forEach(item=>{%>
+
+                                <li class="list-item">
+                                  <div class="box-img">
+                                    <img src="<%=item.img%>" alt="" width="70" style="float: left;">
+                                  </div>
+                                  <div class="box-disc">
+                                    <a href="#"><h5><%=item.name%></h5></a>
+                                    <p><%=item.rating%></p>
+                                    <p><%=item.genres%> <%=item.country%></p>
+                                  </div>
+                                </li>
+                                <hr>
+
+                              <%})%>
+                                <!-- <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster2.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                <a href="#"><h5>2.Narcos</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster3.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                        <a href="#"><h5>3.Stranger Things</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster4.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                        <a href="#"><h5>4.Arrow</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster5.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc last">
+                                        <a href="#"><h5>5.Prison Break</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster6.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                        <a href="#"><h5>6.Super Girl</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster7.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                        <a href="#"><h5>7.Flash</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster8.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                        <a href="#"><h5>8.DareDevil</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster2.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                <a href="#"><h5>2.Narcos</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <div class="box-img">
+                                        <img src="imgs/poster3.jpeg" alt="" width="70" style="float: left;">
+                                    </div>
+                                    <div class="box-disc">
+                                        <a href="#"><h5>10.Stranger Things</h5></a>
+                                        <p>8.8</p>
+                                        <p>series discrption</p>
+                                    </div>
+                                </li>
+                                <hr> -->
+                            </ul>
+        </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <footer class="footer" id="footer">
+        <div class="container-fluid">
+            <a href="#"><span style="color: #3b5998"><i class="social-icon fab fa-facebook-f fa-3x"></i></span></a>
+            <a href="#"><span style="color: #00acee"><i class="social-icon fab fa-twitter fa-3x"></i></span></a>
+            <a href="#"><span style="color: #fe4164 "><i class="social-icon fab fa-instagram fa-3x"></i></span></a>
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Explore</li>
+                </a>
+                <a href="#">
+                    <li>People</li>
+                </a>
+                <a href="#">
+                    <li>Community</li>
+                </a>
+            </ul>
+            <hr>
+            <p>© Copyright. Emmra Programming</p>
+        </div>
+    </footer>
+</body>
+
+</html>

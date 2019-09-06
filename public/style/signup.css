@@ -1,0 +1,91 @@
+html, body {
+    background-color: #131522 !important;
+    text-align: center;
+}
+/************************content*******************/
+
+.content{
+    background-color: #1D1E30;
+    width: 80%;
+    position: relative;
+    left: 140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: fit-content;    
+    margin-top: 80px;
+    min-height: 820px;
+}
+
+.text-left{
+    width: 45%;
+    color: white;
+    position: absolute;
+font-family: ubuntu;
+line-height: 12px;
+}
+
+.disc{
+    position: relative;
+    left: 550px;
+    width: 500px;
+    text-align: left;
+font-weight: bold;
+margin-top: 30px;
+font-family: ubuntu;
+color: white;
+}
+
+
+
+/************************Navbar********************/
+nav a{
+    font-family: 'Tajawal', sans-serif;  
+}
+
+.navbar {
+    padding: 0 0 0.5rem;
+    text-align: right;
+  }
+  
+
+  
+.nav-item{
+   margin: 0 20px;
+  }
+
+  .navbar .lang{
+    margin-right: 50px;     
+}
+
+.nav-link{
+    
+    font-family: 'Tajawal', sans-serif;    
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.navbar-brand{
+  margin-left: 100px;
+}
+
+
+.navbar ul {
+    margin-left: 200px;  
+  }
+
+  .logo-image{
+    width: 46px;
+    height: 46px;
+    
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+
+.dropdown-menu{
+      font-family: "Montserrat";
+  }

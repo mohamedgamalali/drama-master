@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>Sign in</title>
+                <link href="https://fonts.googleapis.com/css?family=Cairo|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="style/signin.css">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+                <!-- Font Awesome -->
+
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+            </head>
+<body>
+    <!------------------------Navbar---------------------------->
+
+
+        <!--Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light cloudy-knoxville-gradient">
+                <a class="navbar-brand" href="#">
+                    <div class="logo-image">
+                        <img src="imgs/logo.jpg" class="img-fluid" width="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">الرئيسية
+                            </a>
+                            <div class="dropdown-menu dropdown-default cloudy-knoxville-gradient "
+                                aria-labelledby="navbarDropdownMenuLink-333" style="text-align: center;">
+                                <a class="dropdown-item" href="../routes/Articles.html">اخبار</a>
+                                <a class="dropdown-item" href="#">مقالات</a>
+                                <a class="dropdown-item" href="#">مجتمع</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">اكتشف
+                            </a>
+                            <div class="dropdown-menu dropdown-default cloudy-knoxville-gradient tempting-azure-gradient"
+                                aria-labelledby="navbarDropdownMenuLink-333">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">اشخاص
+                            </a>
+                            <div class="dropdown-menu dropdown-default cloudy-knoxville-gradient tempting-azure-gradient"
+                                aria-labelledby="navbarDropdownMenuLink-333">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">مجتمع
+                            </a>
+                            <div class="dropdown-menu dropdown-default cloudy-knoxville-gradient tempting-azure-gradient"
+                                aria-labelledby="navbarDropdownMenuLink-333">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0 ml-auto">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+
+                    </form>
+
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-user fa-2x"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-default cloudy-knoxville-gradient tempting-azure-gradient"
+                                aria-labelledby="navbarDropdownMenuLink-333">
+                                <a class="dropdown-item" href="/signin">log in</a>
+                                <a class="dropdown-item" href="/signup">sign up</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="content shadow p-3 mb-5 rounded">
+
+                <!-- Default form register -->
+<form class="text-left border border-light p-5" action="/signin" method="post">
+
+        <p class="h4 mb-4">Sign up</p>
+
+        <div class="form-row mb-4">
+            <div class="col">
+                <!-- First name -->
+                <p>User Name:</p>
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="User Name" name="email">
+            </div>
+
+        </div>
+
+        <!-- Password -->
+        <p>Password :</p>
+        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="password">
+
+
+    <br>
+        <!-- Newsletter -->
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+            <label class="custom-control-label" for="defaultRegisterFormNewsletter">Remember Name</label>
+        </div>
+
+        <!-- Sign up button -->
+        <button class="btn btn-block btn-lg btn-success text-u-c" type="submit">Sign in</button>
+
+
+
+
+
+        <hr>
+
+
+    </form>
+
+<div class="disc">
+    <h1>Don't have an account?</h1>
+    <br>
+    <h6>Sign up for MyDramaList. It's free and only takes about 30 seconds!</h6>
+    <br>
+    <ul>
+        <li>Make your own Drama List</li>
+        <li>Join in Discussions</li>
+        <li>Contribute to the ever growing database</li>
+        <li>Much more ~</li>
+<br>
+
+<div class="button btn btn-primary">Sign Up</div>
+<br>
+    </ul>
+</div>
+
+    <!-- Default form register -->
+            </div>
+
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="#">Emra programming</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+         <!-- Bootstrap Scripts -->
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+
+
+</body>
+</html>
